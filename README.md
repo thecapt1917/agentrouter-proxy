@@ -39,20 +39,6 @@ agentrouter-proxy --silent
 | `--version` | `-v` | | Print version and exit |
 | `--help` | `-h` | | Show help |
 
-### Programmatic usage
-
-```js
-import { createProxy } from "agentrouter-proxy";
-
-const server = createProxy({
-  port: 8318,
-  extraHeaders: { "X-Custom": "value" },
-  silent: false,
-});
-
-// server.close() to stop
-```
-
 ---
 
 ## Integrating with opencode
