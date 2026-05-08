@@ -1,0 +1,31 @@
+{
+    "name": "agentrouter-proxy",
+    "version": "1.0.0",
+    "description": "A lightweight reverse proxy that bridges any OpenAI-compatible AI agent to agentrouter.org",
+    "type": "module",
+    "main": "src/proxy.js",
+    "exports": "./src/proxy.js",
+    "bin": {
+        "agentrouter-proxy": "bin/cli.js"
+    },
+    "scripts": {
+        "start": "node bin/cli.js"
+    },
+    "keywords": [
+        "agentrouter",
+        "opencode",
+        "codex",
+        "proxy",
+        "ai"
+    ],
+    "author": "stpndev",
+    "license": "MIT",
+    "engines": {
+        "node": ">=18.0.0"
+    },
+    "files": [
+        "bin",
+        "src",
+        "README.md"
+    ]
+}
